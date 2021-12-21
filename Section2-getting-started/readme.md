@@ -4,7 +4,6 @@ puts method
 print method
 p method
 basic arithemtic 
-output and arithemtic
 comments
 varibles
 parallel var assignment and swapping var values
