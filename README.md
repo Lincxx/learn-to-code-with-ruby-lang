@@ -1,4 +1,4 @@
 # learn-to-code-with-ruby-lang
-##WIP
+## WIP
 
-###Ruby course to help me understand ruby
+### Ruby course to help me understand ruby
