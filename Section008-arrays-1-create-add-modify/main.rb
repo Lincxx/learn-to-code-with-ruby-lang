@@ -174,14 +174,14 @@
 # p locations
 
 #----------- the .pop method
-# arr = [1,2,3,4,5,6,7,8,9,10]
+ arr = [1,2,3,4,5,6,7,8,9,10]
 # p arr
 
 # last_item =  arr.pop
 # p last_item
 
-# two_items = arr.pop(2)
-# p two_items
+two_items = arr.pop(2)
+p two_items
 
 #----------- the .shift and .unshift methods
 # arr = [1,2,3,4,5,6,7,8,9,10]
@@ -197,12 +197,56 @@
 # p arr
 
 #----------- equality and inequality operators with array
+# a = [1,2,3]
+# b = [1,2,3,4]
+# c = [3,2,1]
+# d = [1,2,3]
+
+# p a == b
+# p a != c
+# p a == d
+
+# a = ["Skittle", "Starburst", "Sninkers"]
+# b = ["Skittle", "Starburst", "sninkers"]
+
+# a == b
 
 
 #----------- the spaceship
+# 4 possible outcomes -1, 1, 0, nil
+# p 5 <=> 5 # 0 if equals
+# p 5 <=> 15 # -1 right side is larger
+# p 15 <=> 5 # 1 left side is larger
+# p 15 <=> [1] # nil if differnt data types
 
+# p [3,4,5] <=> [3,4,5]
+# p [3,4,5] <=> [nil,4,5]
 
 #----------- convert ranges to arrays with the .to_a method
 
+# letter_range = "A".."T"
+# p letter_range
+# letter_array = letter_range.to_a
+# p letter_array[10]
+
+# number_range = 415..450
+# p number_range
+# number_array = number_range.to_a
+# p number_array[10..15]
 
 #----------- the .is_a? predicate method
+p 1.class
+
+puts 1.is_a?(Bignum)
+puts ["a", "b"].is_a?(Float)
+
+arr = ["a", "b"]
+if arr..is_a?(Array) #testing to see if this a valid object
+    arr.each { |el| puts el }
+end
+
+# if arr..is_a?(Array)
+#     arr.each do |el|
+#         puts el
+#     end
+# end
