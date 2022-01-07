@@ -326,11 +326,18 @@ numbers = [1,2,3,4,5]
 # p larry
 
 #----------- the .partion method
-foods = ['Steak', 'Veggie', 'Steak', "Kale", "Tofu", "Tuna Steak"]
+# foods = ['Steak', 'Veggie', 'Steak', "Kale", "Tofu", "Tuna Steak"]
 
-good, bad =  foods.partition {|food| food.include?("Steak")}
-p good
-p bad
+# good, bad =  foods.partition {|food| food.include?("Steak")}
+# p good
+# p bad
+
+# def evens_and_odds(numbers)
+#   # Write your code here
+#   even, odd = numbers.partition {|number| number.even?}
+# end
+
+# p evens_and_odds([15,23])
 
 #----------- coding exercise 2 - even or odd
 
