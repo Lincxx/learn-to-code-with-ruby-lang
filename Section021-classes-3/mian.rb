@@ -35,6 +35,11 @@
 # refer to "super_keyword.rb"
 
 #----------- class variables across subclass
+# refer to class_variables_across_subclasses.rb
 #----------- singleton classes and singleton methods
+# refer to singleton_classes_singleton_methods
+
 #----------- hash as intiialize argument I
+
+# refer to hash_init_arg
 #----------- hash as intiialize argument II
